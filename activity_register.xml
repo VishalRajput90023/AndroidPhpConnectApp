@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#099ad6"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="60dp"
+    android:gravity="center"
+    >
+    <ImageView
+        android:src="@drawable/logo"
+        android:layout_width="200dp"
+        android:layout_height="110dp"
+        />
+
+
+    <EditText
+        android:background="@drawable/rounded_edittext"
+        android:id="@+id/usernameq"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:hint="Username"
+        android:layout_marginTop="60dp"
+        android:fontFamily="monospace"
+        android:textSize="20sp" />
+    <EditText
+        android:background="@drawable/rounded_edittext"
+        android:id="@+id/passwordq"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:hint="Password"
+        android:fontFamily="monospace"
+        android:textSize="20sp"/>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/registerq"
+        android:text="JOIN"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="monospace"
+        android:onClick="registerin"
+        android:background="@drawable/rounded_edittext"
+        />
+</LinearLayout>
+    </ScrollView>
